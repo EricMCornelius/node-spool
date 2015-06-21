@@ -1,0 +1,38 @@
+{
+  "name": "spool",
+  "version": "0.1.0",
+  "description": "Spool readable streams to disk with hierarchical immutable segment merges",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "event-stream": "^3.3.1",
+    "node-uuid": "^1.4.3",
+    "chai": "^1.10.0",
+    "gulp": "^3.8.10",
+    "gulp-exit": "0.0.2",
+    "gulp-istanbul": "^0.5.0",
+    "gulp-jshint": "^1.9.0",
+    "gulp-mocha": "^2.0.0",
+    "jshint-stylish": "^1.0.0",
+    "mocha": "^2.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricMCornelius/node-spool.git"
+  },
+  "keywords": [
+    "spool"
+  ],
+  "author": "Eric Cornelius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricMCornelius/node-spool/issues"
+  },
+  "homepage": "https://github.com/EricMCornelius/node-spool#readme",
+  "scripts": {
+    "test": "./node_modules/gulp/bin/gulp.js test"
+  }
+}
